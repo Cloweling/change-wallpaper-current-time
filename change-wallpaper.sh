@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HOUR=$(date +%H)
-PATH_IMAGE=/home/cloweling/Pictures/lofi/
+PATH_IMAGE=$HOME/Pictures/lofi/
 WALLPAPER_1=41-lofi.png
 WALLPAPER_2=44-lofi.png
 WALLPAPER_3=02-lofi.png

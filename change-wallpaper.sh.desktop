@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=change-wallpaper.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Change Wallpaper Current Time
+Name=Change Wallpaper Current Time
+Comment[en_US]=
+Comment=

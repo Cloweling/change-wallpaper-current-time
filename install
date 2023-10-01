@@ -1,0 +1,15 @@
+#! /bin/bash
+
+if [ "$EUID" -ne 0 ]
+    then echo  "Please run as root"
+    exit
+fi
+
+ sudo cp change-wallpaper.sh /usr/local/bin/change-wallpaper.sh
+ sudo chmod 755 /usr/local/bin/change-wallpaper.sh
+ sudo chown root:root /usr/local/bin/change-wallpaper.sh
+
+# Autostart
+mkdir -p ~/.config/autostart
+cp change-wallpaper.sh.desktop ~/.config/autostart/change-wallpaper.sh.desktop
+chmod 755 ~/.config/autostart/change-wallpaper.sh.desktop
