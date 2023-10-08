@@ -2,9 +2,9 @@
 
 HOUR=$(date +%H)
 PATH_IMAGE=$HOME/Pictures/lofi/
-WALLPAPER_1=41-lofi.png
+WALLPAPER_1=49-lofi.png
 WALLPAPER_2=44-lofi.png
-WALLPAPER_3=02-lofi.png
+WALLPAPER_3=54-lofi.png
 WALLPAPER_4=24-lofi.png
 WALLPAPER_5=07-lofi.png
 WALLPAPER_6=37-lofi.png
