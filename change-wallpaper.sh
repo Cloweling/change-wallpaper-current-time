@@ -1,16 +1,16 @@
 #!/bin/bash
 
 HOUR=$(date +%H)
-PATH_IMAGE=$HOME/Pictures/lofi/
-WALLPAPER_1=49-lofi.png
-WALLPAPER_2=44-lofi.png
-WALLPAPER_3=54-lofi.png
-WALLPAPER_4=24-lofi.png
-WALLPAPER_5=07-lofi.png
-WALLPAPER_6=37-lofi.png
-WALLPAPER_7=25-lofi.png
-WALLPAPER_8=39-lofi.png
-WALLPAPER_9=30-lofi.png
+PATH_IMAGE=$HOME/Pictures/Lofi-Halloween/
+WALLPAPER_1=15-lofi.png
+WALLPAPER_2=01-lofi.png
+WALLPAPER_3=12-lofi.png
+WALLPAPER_4=08-lofi.png
+WALLPAPER_5=10-lofi.png
+WALLPAPER_6=11-lofi.png
+WALLPAPER_7=03-lofi.png
+WALLPAPER_8=12-lofi.png
+WALLPAPER_9=06-lofi.png
 
 case "$HOUR" in
 04|05|06|07)

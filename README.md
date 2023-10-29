@@ -19,6 +19,6 @@ echo $(cat /proc/$(pgrep -n "gnome-session" -u "$USER")/environ | grep -z "^DBUS
 crontab -e
 ```
 ```bash
-0 4,8,10,12,14,16,18,20,22 * * * DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus change-wallpaper.sh
+0 4,8,10,12,14,16,18,20,22 * * * DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /usr/local/bin/change-wallpaper.sh
 ```
 
